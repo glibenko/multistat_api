@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+npm-debug.log*
+.DS_Store
+*.crt
+*.key
+*.pem
+public/
