@@ -1,6 +1,6 @@
 ### MULTISTAT API
 
-![alt text](https://github.com/njiyto/multistat_api/ui.png "UI")
+![alt text](https://raw.githubusercontent.com/njiyto/multistat_api/master/ui.png "UI")
 
 This App using:
 * React
