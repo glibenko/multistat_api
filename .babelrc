@@ -8,5 +8,5 @@
       }],
       "react"
   ],
-  "plugins": []
+  "plugins": ["transform-class-properties"]
 }

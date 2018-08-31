@@ -5,7 +5,7 @@
   "main": "./server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon --watch ./server/server.js",
+    "start:dev": "nodemon --watch ./server/server.js --watch ./server",
     "build:dev": "webpack --progress"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
@@ -31,10 +32,19 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "@material-ui/core": "^3.0.1",
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "form-data": "^2.3.2",
+    "postcss-loader": "^3.0.0",
     "pug": "^2.0.3",
+    "querystring": "^0.2.0",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "request": "^2.88.0",
+    "utf8": "^3.0.0",
+    "xml2js": "^0.4.19"
   }
 }
